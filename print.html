@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>더마인드</title>
+    <style>
+        div {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            justify-items: center;
+        }
+        body {
+            margin: 0;
+        }
+        img {
+            width:100%;
+        }
+        
+    </style>
+</head>
+<body>
+    <div>
+    </div>
+    <script>
+        var a = document.querySelector('div')
+        for (let img = 0; img <= 15; img++) {
+            a.insertAdjacentHTML('beforeend', `<img src="card/card_${img*6+1}.jpg">`)
+            a.insertAdjacentHTML('beforeend', `<img src="card/card_${img*6+2}.jpg">`)
+            a.insertAdjacentHTML('beforeend', `<img src="card/card_${img*6+3}.jpg">`)
+            a.insertAdjacentHTML('beforeend', `<img src="card/card_${img*6+4}.jpg">`)
+            a.insertAdjacentHTML('beforeend', `<img src="card/card_${img*6+5}.jpg">`)
+            a.insertAdjacentHTML('beforeend', `<img src="card/card_${img*6+6}.jpg">`)
+            a.insertAdjacentHTML('beforeend', `<img src="back.jpg">`)
+            a.insertAdjacentHTML('beforeend', `<img src="back.jpg">`)
+            a.insertAdjacentHTML('beforeend', `<img src="back.jpg">`)
+            a.insertAdjacentHTML('beforeend', `<img src="back.jpg">`)
+            a.insertAdjacentHTML('beforeend', `<img src="back.jpg">`)
+            a.insertAdjacentHTML('beforeend', `<img src="back.jpg">`)
+        }
+        a.insertAdjacentHTML('beforeend', `<img src="card/card_97.jpg">`)
+        a.insertAdjacentHTML('beforeend', `<img src="card/card_98.jpg">`)
+        a.insertAdjacentHTML('beforeend', `<img src="card/card_99.jpg">`)
+        a.insertAdjacentHTML('beforeend', `<img src="card/card_100.jpg">`)
+        a.insertAdjacentHTML('beforeend', `<img src="life.jpg">`)
+        a.insertAdjacentHTML('beforeend', `<img src="life.jpg">`)
+        a.insertAdjacentHTML('beforeend', `<img src="back.jpg">`)
+        a.insertAdjacentHTML('beforeend', `<img src="back.jpg">`)
+        a.insertAdjacentHTML('beforeend', `<img src="back.jpg">`)
+        a.insertAdjacentHTML('beforeend', `<img src="back.jpg">`)
+        a.insertAdjacentHTML('beforeend', `<img src="back.jpg">`)
+        a.insertAdjacentHTML('beforeend', `<img src="back.jpg">`)
+        a.insertAdjacentHTML('beforeend', `<img src="life.jpg">`)
+        a.insertAdjacentHTML('beforeend', `<img src="life.jpg">`)
+        a.insertAdjacentHTML('beforeend', `<img src="life.jpg">`)
+        a.insertAdjacentHTML('beforeend', `<img src="shuriken.jpg">`)
+        a.insertAdjacentHTML('beforeend', `<img src="shuriken.jpg">`)
+        a.insertAdjacentHTML('beforeend', `<img src="shuriken.jpg">`)
+        a.insertAdjacentHTML('beforeend', `<img src="back.jpg">`)
+        a.insertAdjacentHTML('beforeend', `<img src="back.jpg">`)
+        a.insertAdjacentHTML('beforeend', `<img src="back.jpg">`)
+        a.insertAdjacentHTML('beforeend', `<img src="back.jpg">`)
+        a.insertAdjacentHTML('beforeend', `<img src="back.jpg">`)
+        a.insertAdjacentHTML('beforeend', `<img src="back.jpg">`)
+    </script>
+</body>
+</html>
